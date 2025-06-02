@@ -1,0 +1,6 @@
+body {
+  background: linear-gradient(to bottom right, #ff7e5f, #6a82fb);
+  background-color: #ff7e5f; /* fallback */
+  min-height: 100vh;
+  margin: 0;
+}
