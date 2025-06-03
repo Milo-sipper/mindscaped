@@ -1,0 +1,7 @@
+// Override the logo/text color
+.site-title {
+  color: #FFA500 !important; /* Orange */
+  &:hover {
+    color: #FF6347 !important; /* Tomato (hover effect) */
+  }
+}
