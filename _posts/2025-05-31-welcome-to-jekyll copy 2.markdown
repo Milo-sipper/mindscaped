@@ -4,9 +4,10 @@ title:  Breathe
 date:   2025-05-31 12:09:08 +0800
 categories: jekyll update
 ---
+![Looping gif](/assets/images/output.gif){: style="position: fixed; top:0; left:0; width:100%; height:100%; z-index:-1; object-fit: cover;" }
 <h3 style="color: #D8863B;">Sometimes, its good to take a breather, so lets count together!
 Clear your mind, and lets go!!</h3>
-![Background image](/assets/images/meditation2.png){: style="position: fixed; top:0; left:0; width:100%; height:100%; z-index:-1; object-fit: cover;" }
+
 
 <style>
 .wind-lines {
