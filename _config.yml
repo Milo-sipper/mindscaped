@@ -28,12 +28,10 @@ twitter_username:
 github_username:  Milo-Sipper
 
 # Build settings
-remote_theme: jekyll/minima@3cdd14d
-
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-admin
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
