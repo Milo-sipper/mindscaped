@@ -36,6 +36,4 @@ title:
       html: true
     });
   });
-</script>
-<link rel="stylesheet" href="/assets/css/style.css">
 
