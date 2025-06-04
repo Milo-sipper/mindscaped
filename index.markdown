@@ -39,3 +39,26 @@ title:
 </script>
 <link rel="stylesheet" href="/assets/css/style.css">
 
+<h2>Ask AI Anything:</h2>
+<textarea id="prompt" rows="4" cols="60" placeholder="Enter a prompt..."></textarea><br>
+<button onclick="sendPrompt()">Submit</button>
+
+<pre id="output"></pre>
+
+<script>
+  async function sendPrompt() {
+    const prompt = document.getElementById('prompt').value;
+
+    const response = await fetch('/api/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ prompt })
+    });
+
+    const data = await response.json();
+
+    document.getElementById('output').textContent = data.text || 'No response';
+  }
+</script>
